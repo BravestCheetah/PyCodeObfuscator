@@ -50,7 +50,9 @@ Output:
 ## How It Works
 1. **Input File**: Supply the path to a Python source file.
 2. **Obfuscation**: The tool processes and obfuscates the file to make the file less readable.
-3. **Output File**: An obfuscated version of the file is saved in the same directory.
+    Now this part is broken down into peices, first all comments and empty liens are removed. Then the command splits the code into smaller chunks and picks a random function out of a list of encoding functions containing functions such as base64, gzip etc. Then it formats the output of the endoing together with some randomly picked variable names and formats them into python syntax. Lastly it adds a exec() containing the decoding of all the variables.
+     After that this process is repeated 20 times to obfuscate it as much as possible (to prevent this repetition use the -s (--single) flag to only obfuscate once.)
+4. **Output File**: An obfuscated version of the file is saved in the same directory.
 
 ## Requirements
 - Python 3.6 or higher
