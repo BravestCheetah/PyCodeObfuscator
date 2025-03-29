@@ -2,11 +2,12 @@ from setuptools import setup, find_packages
 
 setup(
     name="PyCodeObfuscator",
-    version="0.1.0",
+    version="1.2.5",
     packages=find_packages(),
     entry_points={
         "console_scripts": [
             "PyCodeObfuscator=PyCodeObfuscator.PCO:main",
+            "PCO=PyCodeObfuscator.PCO:main",
         ],
     },
     install_requires=[],
