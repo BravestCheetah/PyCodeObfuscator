@@ -1,3 +1,0 @@
-[console_scripts]
-PCO = PyCodeObfuscator.PCO:main
-PyCodeObfuscator = PyCodeObfuscator.PCO:main
