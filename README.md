@@ -1,4 +1,3 @@
-
 # PyCodeObfuscator
 
 PyCodeObfuscator is a Python-based tool designed to securely obfuscate Python source files. With a focus on simplicity and utility, this script ensures your code is protected while maintaining functionality.
@@ -58,10 +57,6 @@ Output:
 - Python 3.6 or higher
 - termcolor library for colored console output
 
-Install requirements with:
-```
-pip install termcolor
-```
 ## Contributing
 Contributions are welcome! Feel free to open an issue or submit a pull request on GitHub.
 
